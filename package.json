@@ -1,0 +1,15 @@
+{
+  "name": "rs3-banner-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker to store and serve background images for RuneScape banner generator.",
+  "main": "index.js",
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
