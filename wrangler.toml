@@ -1,9 +1,8 @@
 name = "rs3-banner-worker"
 main = "index.js"
 compatibility_date = "2025-09-11"
-# Optionally set your account_id here if you want (not required to publish)
-# account_id = "your-account-id"
 
 [[kv_namespaces]]
 binding = "BANNERS"
 id = "REPLACE_WITH_KV_ID_FROM_CLI"
+
